@@ -1,7 +1,7 @@
-# bombergemini
+# Bomber Gemini
 **Bomber Gemini** est un jeu de plateformes inspirés des 3 grands classiques que sont **Bubble Bobble**, **Dynablaster** et **Boulder Dash**. Le but du jeu est de parcourir les 50 niveaux du jeu en collectant des diamants. Chaque niveau est truffé de vilains petits monstres en tout genre qu'il faudra vaincre à grands coups d'explosifs. 
 
-## Comment joeur ?
+## Installation et lancement
 Après avoir cloné le dépôt dans un dossier de votre choix, ouvre un terminal dans ce dossier, et tapez la commande suivante pour installer les dépendances du projet :
 
     npm install
@@ -9,3 +9,20 @@ Après avoir cloné le dépôt dans un dossier de votre choix, ouvre un terminal
 Ensuite, lancez l'application dans votre navigateur à l'aide de la commande suivante :
 
     npm run preview
+
+Et enfin, ouvrez votre navigateur en tapant l'adresse suivante dans la barre d'URL :
+
+    http://localhost:5173/gemini
+
+## Commandes
+
+Par défaut, les commandes sont définis comme suit :
+
+- **Touches fléchés** : déplacer Gemini/naviguer dans les menus
+- **ESPACE** : sélectionner une option dans les menus
+- **J** : sauter
+- **C** : lancer une bombe
+- **D** : actionner une bombe (nécessite de collecter la télécommande)
+- **P** : mettre le jeu en pause/reprendre la partie
+
+Les commandes peuvent être redéfinies dans les options.

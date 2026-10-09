@@ -1895,7 +1895,7 @@ export default ({
                         case 1: {
                             // On retourne au menu des options.
                             this.screen = Constants.SCREEN_OPTIONS;
-                            this.currentMenuOption = 5;
+                            this.currentMenuOption = 6;
 
                             // Joue un son.
                             Sound.play(this.sndConfirm);

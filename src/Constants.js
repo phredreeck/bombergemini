@@ -1,6 +1,6 @@
 export default ({
     // Divers.
-    VERSION: "26.118.1",
+    VERSION: "26.1009.1",
 
     // Taille du canevas.
     CANVAS_WIDTH: 288,

@@ -506,8 +506,6 @@ export default ({
                                     Player.maxEnergy += 2;
                                     Player.energy = Player.maxEnergy;
                                 }
-
-                                return;
                             }
 
                             // Joue un son.

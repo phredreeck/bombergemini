@@ -791,6 +791,13 @@ export default ({
                 // Test potion magique.
                 //Item.createFalling(Constants.ITEM_POTION);
 
+                // Test diamants bonus.
+                /*Item.createFalling(Constants.ITEM_BONUS_GEM1);
+                Item.createFalling(Constants.ITEM_BONUS_GEM2);
+                Item.createFalling(Constants.ITEM_BONUS_GEM3);
+                Item.createFalling(Constants.ITEM_BONUS_GEM4);
+                Item.createFalling(Constants.ITEM_BONUS_GEM5);*/
+
                 if (!this.isBonusLevel) {
                     if (App.settings.startingBonus) {
                         // Un item au hasard apparait en début de partie.
